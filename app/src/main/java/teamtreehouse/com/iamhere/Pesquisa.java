@@ -28,7 +28,7 @@ public class Pesquisa extends Activity {
             public void onClick(View view) {
               startActivity(new Intent(Pesquisa.this,GPSMainActivity.class));
               setContentView(R.layout.apontamento);
-
+//danielr ocha leite
             }
         });
 

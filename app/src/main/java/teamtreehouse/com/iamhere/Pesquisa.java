@@ -19,7 +19,7 @@ public class Pesquisa extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pesquisa);
+        setContentView(R.layout.descricao);
 
         pesquisar = (Button) findViewById(R.id.btn_pesquisar);
         cep = (EditText) findViewById(R.id.cpf);
